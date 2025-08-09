@@ -7,15 +7,14 @@ const data = [
         "it_Introduce": "https://pan.baidu.com/s/1-VwFuXtslKC8YhQAIw-KLw?pwd=0721 提取码: 0721 "
     },
     {
-        "image": "/bronyaweb/img/ywlc.jpg（pc）",
+        "image": "/bronyaweb/img/ywlc.jpg",
         "it_name": "暴露吧！野外露○直播",
         "it_Introduce": "https://pan.baidu.com/s/1CzA5PDK3JW9DopZqK3ZWmw?pwd=0721 提取码: 0721\n解压码：0d000721 "
     },
     {
-        "image": "/bronyaweb/img/img3.jpg",
+        "image": "/bronyaweb/img/kalin.jpg",
         "it_name": "资源三",
-        "it_Introduce": "这是第三个资源的介绍。"
-    }
+        "it_Introduce": "https://pan.baidu.com/s/1iI9VPzh5xDuXwxXspBNNMQ?pwd=0721 提取码: 0721  解压码：0d000721"
 ];
 
 // 切换导航栏内容
