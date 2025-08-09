@@ -13,7 +13,7 @@ const data = [
     },
     {
         "image": "/bronyaweb/img/kalin.jpg",
-        "it_name": "资源三",
+        "it_name": "卡琳典狱长",
         "it_Introduce": "https://pan.baidu.com/s/1iI9VPzh5xDuXwxXspBNNMQ?pwd=0721 提取码: 0721  解压码：0d000721"
 ];
 
