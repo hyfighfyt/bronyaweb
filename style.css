@@ -1,0 +1,176 @@
+/* 全局背景和字体 */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('/bronyaweb/background.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* 顶部导航栏 */
+nav {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+.nav-logo {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffd700;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: rgba(255, 215, 0, 0.25);
+    color: #ffd700;
+}
+
+/* 内容区域 */
+#content {
+    padding: 30px;
+}
+
+/* 每个子界面 */
+.tab-content {
+    display: none;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    animation: fadeIn 0.5s ease;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 资源卡片布局 */
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    background: rgba(255,255,255,0.08);
+    border-radius: 12px;
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.item:hover {
+    transform: translateY(-6px) scale(1.03);
+    background: rgba(255,255,255,0.12);
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    margin: 6px 0;
+    font-size: 1.1em;
+    color: #ffd700;
+}
+
+.item p {
+    font-size: 0.9em;
+    line-height: 1.4em;
+    color: #ddd;
+}
+/* 弹出框背景 */
+#popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease;
+    z-index: 999;
+}
+
+/* 弹窗内容 */
+.popup-content {
+    background: rgba(0,0,0,0.85);
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    animation: popUp 0.3s ease;
+}
+
+.popup-content img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.popup-content h2 {
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.close-btn:hover {
+    color: #ffd700;
+}
+
+@keyframes popUp {
+    from { transform: scale(0.9); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
