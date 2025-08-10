@@ -1,6 +1,11 @@
 // 模拟 item.json 数据（直接内嵌）
 const data = [
     {
+     "image": "",
+        "it_name": "公告",
+        "it_Introduce": "本站收录各种找到的资源。暂时搭建在github身上。"
+    },
+    {
      "image": "/bronyaweb/img/fjwy.jpg",
 
         "it_name": "风纪委员会梦见女淫魔吗？ （pc）",
@@ -15,6 +20,11 @@ const data = [
         "image": "/bronyaweb/img/kalin.jpg",
         "it_name": "卡琳典狱长",
         "it_Introduce": "https://pan.baidu.com/s/1iI9VPzh5xDuXwxXspBNNMQ?pwd=0721 提取码: 0721  解压码：0d000721"
+        }
+    {
+        "image": "/bronyaweb/img/gzqs.jpg",
+        "it_name": "催眠之公主骑士",
+        "it_Introduce": "https://pan.baidu.com/s/100OLMiqKA1KyAikeTlvksQ?pwd=0721 提取码: 0721 解压码：0d000721"
         }
 ];
 

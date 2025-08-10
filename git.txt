@@ -1,28 +1,3 @@
-Microsoft Windows [版本 10.0.22631.5335]
-(c) Microsoft Corporation。保留所有权利。
-
-D:\HuaweiMoveData\Users\matebook14\Desktop\html - 副本>git add .
-
-D:\HuaweiMoveData\Users\matebook14\Desktop\html - 副本>git commit -m "请输入文本"
-[main b1380e6] 璇疯緭鍏ユ枃鏈
- 1 file changed, 1 insertion(+)
-
-D:\HuaweiMoveData\Users\matebook14\Desktop\html - 副本>git branch -M main
-
-D:\HuaweiMoveData\Users\matebook14\Desktop\html - 副本>git -c http.proxy=http://127.0.0.1:7899 -c https.proxy=http://127.0.0.1:7899 push -u origin main
-Enumerating objects: 5, done.
-Counting objects: 100% (5/5), done.
-Delta compression using up to 16 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 308 bytes | 308.00 KiB/s, done.
-Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
-To https://github.com/hyfighfyt/bronyaweb.git
-   df72d9f..b1380e6  main -> main
-branch 'main' set up to track 'origin/main'.
-
-D:\HuaweiMoveData\Users\matebook14\Desktop\html - 副本>
-
 git add .
 git commit -m "请输入文本"
 git branch -M main
