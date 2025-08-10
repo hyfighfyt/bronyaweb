@@ -1,7 +1,7 @@
 // 模拟 item.json 数据（直接内嵌）
 const data = [
     {
-     "image": "",
+     "image": "error.jpg",
         "it_name": "公告",
         "it_Introduce": "本站收录各种找到的资源。暂时搭建在github身上。"
     },
