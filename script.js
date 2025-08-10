@@ -20,7 +20,7 @@ const data = [
         "image": "/bronyaweb/img/kalin.jpg",
         "it_name": "卡琳典狱长",
         "it_Introduce": "https://pan.baidu.com/s/1iI9VPzh5xDuXwxXspBNNMQ?pwd=0721 提取码: 0721  解压码：0d000721"
-        }
+        },
     {
         "image": "/bronyaweb/img/gzqs.jpg",
         "it_name": "催眠之公主骑士",
